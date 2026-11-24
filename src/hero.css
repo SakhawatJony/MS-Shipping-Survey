@@ -1,0 +1,41 @@
+.hero .slick-dots {
+  bottom: 34px;
+  width: min(1140px, calc(100% - 40px));
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: left;
+}
+
+.hero .slick-dots li {
+  width: 42px;
+  height: 16px;
+  margin: 0 10px 0 0;
+}
+
+.hero .slick-dots li button {
+  width: 42px;
+  height: 16px;
+  padding: 0;
+}
+
+.hero .slick-dots li button:before {
+  content: "";
+  width: 42px;
+  height: 1px;
+  top: 7px;
+  left: 0;
+  background: #00aefa;
+  opacity: 0.35;
+  font-size: 0;
+  line-height: 0;
+}
+
+.hero .slick-dots li.slick-active button:before {
+  height: 2px;
+  top: 7px;
+  opacity: 1;
+}
+
+.hero .slick-arrow {
+  display: none !important;
+}
