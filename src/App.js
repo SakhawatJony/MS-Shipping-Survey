@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useEffect } from "react";
 import { Box } from "@mui/material";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -19,11 +20,24 @@ function PublicSite() {
         <TopBar />
         <NavBar />
       </header>
+=======
+import { Box, Typography } from "@mui/material";
+import TopBar from "./Pages/Shared/TopBar/TopBar";
+import NavBar from "./Pages/Shared/NavBar/NavBar";
+import Home from "./Pages/Home/Home";
+
+function App() {
+  return (
+    <Box>
+      <TopBar />
+      <NavBar />
+>>>>>>> 046ae668174e85270d93384364173162040c96f1
       <Home />
     </Box>
   );
 }
 
+<<<<<<< HEAD
 function App() {
   return (
     <BrowserRouter>
@@ -40,4 +54,6 @@ function App() {
   );
 }
 
+=======
+>>>>>>> 046ae668174e85270d93384364173162040c96f1
 export default App;

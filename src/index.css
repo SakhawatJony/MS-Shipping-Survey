@@ -1,4 +1,5 @@
 :root {
+<<<<<<< HEAD
   --navy: #2d30a1;
   --navy-2: #1b1d72;
   --ink: #1a1c4e;
@@ -1028,3 +1029,19 @@ input {
     transition: none;
   }
 }
+=======
+  --primary-color: #4CAF4F;
+  --white-color: #FFFFFF;
+  --black-color: #000000;
+  --grey-color: #717171;
+  --second-color:#F5F7FA;
+  --text-color:#4D4D4D;
+  --text-color-two:#717171;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+>>>>>>> 046ae668174e85270d93384364173162040c96f1

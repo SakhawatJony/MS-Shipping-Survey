@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "short_name": "SSIS",
   "name": "Shipping Survey & Inspection Services",
   "icons": [
@@ -6,6 +7,15 @@
       "src": "favicon.png",
       "sizes": "32x32",
       "type": "image/png"
+=======
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+>>>>>>> 046ae668174e85270d93384364173162040c96f1
     },
     {
       "src": "logo192.png",
@@ -20,6 +30,10 @@
   ],
   "start_url": ".",
   "display": "standalone",
+<<<<<<< HEAD
   "theme_color": "#2d30a1",
+=======
+  "theme_color": "#000000",
+>>>>>>> 046ae668174e85270d93384364173162040c96f1
   "background_color": "#ffffff"
 }
